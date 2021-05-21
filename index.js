@@ -9,6 +9,14 @@ module.exports = {
     },
     extends: ["airbnb-base", "prettier", "plugin:prettier/recommended"],
     plugins: ["prettier"],
+    settings: {
+        "import/resolver": {
+            node: {
+                extensions: [".js", ".jsx", ".ts", ".tsx"],
+            },
+        },
+        "import/extensions": [".js", ".jsx", ".ts", ".tsx"],
+    },
     rules: {
         "prettier/prettier": [
             "error",
