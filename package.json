@@ -5,7 +5,7 @@
     "repository": "git@github.com:ericksarabia/eslint-config.git",
     "author": "Erick Sarabia <erick.sarabia@outlook.com>",
     "license": "MIT",
-    "devDependencies": {
+    "peerDependencies": {
         "babel-eslint": "^10.1.0",
         "eslint": "^7.26.0",
         "eslint-config-prettier": "^8.3.0",
