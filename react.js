@@ -5,7 +5,7 @@ module.exports = {
             jsx: true,
         },
     },
-    extends: ["./index", "prettier", "prettier/react", "plugin:prettier/recommended"],
+    extends: ["airbnb", "./index", "prettier", "prettier/react", "plugin:prettier/recommended"],
     rules: {
         "react/jsx-filename-extension": 0,
         "react/react-in-jsx-scope": 0,

@@ -7,7 +7,7 @@ module.exports = {
         browser: true,
         es6: true,
     },
-    extends: ["prettier", "plugin:prettier/recommended"],
+    extends: ["airbnb-base", "prettier", "plugin:prettier/recommended"],
     plugins: ["prettier"],
     rules: {
         "prettier/prettier": [
